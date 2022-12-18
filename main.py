@@ -9,6 +9,7 @@ font = font_manager.FontProperties(fname=font_path).get_name()
 rc('font', family=font)
 file = input()
 asd = int(input('파일 출처 입력(1번은 네이버 데이터랩,2번은 행정안전부,3번은 구글 트렌드'))
+
 def naver(file):
     f = open(file, 'r', encoding='utf-8')
     rdr = csv.reader(f)
